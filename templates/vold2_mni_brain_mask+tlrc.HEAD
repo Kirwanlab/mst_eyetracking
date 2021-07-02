@@ -1,0 +1,132 @@
+
+type = string-attribute
+name = HISTORY_NOTE
+count = 677
+'[kirwan@Beckys-iPhone-010004059139.app.byu.edu: Tue Oct 25 14:55:06 2016] 3dcopy vold2_mni_brain.nii.gz vold2_mni_brain+orig\n[kirwan@Beckys-iPhone-010004059139.app.byu.edu: Tue Oct 25 14:55:28 2016] 3drefit -space MNI vold2_mni_brain+orig.\n[kirwan@Beckys-iPhone-010004059139.app.byu.edu: Tue Oct 25 14:57:47 2016] 3drefit -view tlrc vold2_mni_brain+orig.\n[kirwan@N-S1282-PSY-1: Wed Apr  5 01:17:29 2017] 3dcalc -a vold2_mni_brain+tlrc. -prefix vold2_mni_brain_binary -datum short -expr 'step(a-1)'\n[kirwan@N-S1282-PSY-1: Wed May  3 19:07:33 2017] 3dfractionize -template ../s2975/Corr_lHip_Z+tlrc. -input vold2_mni_brain_binary+tlrc. -preserve -prefix vold2_mni_brain_mask~
+
+type = string-attribute
+name = TYPESTRING
+count = 15
+'3DIM_HEAD_FUNC~
+
+type = string-attribute
+name = IDCODE_STRING
+count = 27
+'XYZ_HrgzY6QUwT-_CmA4CxYxeQ~
+
+type = string-attribute
+name = IDCODE_DATE
+count = 25
+'Wed May  3 19:07:33 2017~
+
+type = integer-attribute
+name = SCENE_DATA
+count = 8
+ 2 0 1 -999 -999
+ -999 -999 -999
+
+type = string-attribute
+name = LABEL_1
+count = 5
+'zyxt~
+
+type = string-attribute
+name = LABEL_2
+count = 5
+'zyxt~
+
+type = string-attribute
+name = DATASET_NAME
+count = 5
+'zyxt~
+
+type = integer-attribute
+name = ORIENT_SPECIFIC
+count = 3
+ 1 2 4
+
+type  = float-attribute
+name  = ORIGIN
+count = 3
+           95.4          131.4          -77.4
+
+type  = float-attribute
+name  = DELTA
+count = 3
+           -1.8           -1.8            1.8
+
+type  = float-attribute
+name  = IJK_TO_DICOM
+count = 12
+           -1.8              0              0           95.4              0
+           -1.8              0          131.4              0              0
+            1.8          -77.4
+
+type  = float-attribute
+name  = IJK_TO_DICOM_REAL
+count = 12
+           -1.8              0              0           95.4              0
+           -1.8              0          131.4              0              0
+            1.8          -77.4
+
+type  = float-attribute
+name  = BRICK_STATS
+count = 2
+              0              1
+
+type = integer-attribute
+name = DATASET_RANK
+count = 8
+ 3 1 0 0 0
+ 0 0 0
+
+type = integer-attribute
+name = DATASET_DIMENSIONS
+count = 5
+ 107 127 107 0 0
+
+type = integer-attribute
+name = BRICK_TYPES
+count = 1
+ 1
+
+type  = float-attribute
+name  = BRICK_FLOAT_FACS
+count = 1
+              0
+
+type = string-attribute
+name = BRICK_LABS
+count = 11
+'PearCorr#0~
+
+type = string-attribute
+name = BRICK_KEYWORDS
+count = 1
+'~
+
+type  = float-attribute
+name  = BRICK_STATAUX
+count = 6
+              0              2              3            823              1
+              1
+
+type = string-attribute
+name = BRICK_STATSYM
+count = 16
+'Correl(823,1,1)~
+
+type = string-attribute
+name = TEMPLATE_SPACE
+count = 4
+'MNI~
+
+type = integer-attribute
+name = INT_CMAP
+count = 1
+ 0
+
+type = string-attribute
+name = BYTEORDER_STRING
+count = 10
+'LSB_FIRST~

@@ -1,0 +1,7 @@
+#ignore the prep "Task_step0*" stuff
+Task_step0_1_createTimingFiles.m 
+Task_step0_2_de-modTimingFiles.sh 
+Task_step0_dcm2nii.sh
+BIDS_step1_fixTaskName.sh
+old
+taskdata
